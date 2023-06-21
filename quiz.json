@@ -1,0 +1,22 @@
+
+{
+    "what is your name?":"Socrates",
+    "what is your favortite_number?":"7",
+    "are you an enginnering student?":"yes",
+    "what are your hobbies?": ["football","playing cards"],
+    "who are your friends?": ["Ali", "24 years old","mohameed","23 years old"],
+    "what is the multipation of 3 and 4?" : "12",
+    "what is sin 90 degrees?" : "1",
+    "what is cos 90 degrees?" : "0",
+    "what is the squrt of 16?" :"4",
+    "what is the combination of blue and red?" : "purple",
+    "which protocol is more reliable between TCP and UDP?" : "TCP",
+    "who's the best footballer in the history?" :"Messi",
+    "do you smoke shisha ?":"yes",
+    "what's the biggest country in the world?" : "Russia",
+    "what's 2**8?": "256",
+    "how many plaents in the solar system?":"8",
+    "what's the combination of H2 and O2?": "H2O",
+    "what's the unit of the force?":"N",
+    "who's your favorite artist?": "coldplay",
+    "what's your favorite color?": "blue"}

@@ -1,0 +1,45 @@
+.navbar {
+    background: black;
+
+}
+.navbar a {
+    color: skyblue;
+
+}
+.H {
+    text-align: center;
+}
+.H h1 {
+    text-align: center;
+    background: black;
+    color: skyblue;
+    padding: 18px;
+    margin-top: 18px;
+}
+
+.footer {
+    text-align: center;
+    background: #6e83d3;
+    padding: 15px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+#a {
+    color: skyblue;
+}
+
+.C {
+    text-align: center;
+    background: black;
+    color: skyblue;
+    padding: 18px;
+    margin-top: 18px;
+}
+.I {
+    text-align: center;
+    background: black;
+    color: skyblue;
+    padding: 10px;
+    margin-top: 18px;
+}

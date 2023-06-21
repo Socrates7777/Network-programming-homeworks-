@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static' , filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static' , filename='css/styling.css') }}">
+  <title>Profile</title>
+</head>
+<body>
+    
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home.html" id="a">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contct Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/info.html">Info</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+<section class="I">
+  <h1>Info : </h1>
+  <p>My Name is Socrates</p>
+  <p>This is my First WebSite </p>
+  <p>I am an engineering Student </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer  rollIn" >
+  <div class="container">
+    <div class="row">
+ 
+    <div class="col-lg-4 col-md-6">
+      <a class="nav-link active" href="/home.html" >Home</a>
+    </div>
+   
+    <div class="col-lg-4 col-md-6">
+      <a class="nav-link active"  href="/contact.html">Contact</a>
+    </div>
+
+
+    <div class="col-lg-4 third">
+      <a class="nav-link active"  href="/info.html">Info</a>
+    </div>
+
+    </div>
+  </div>
+  <div class="copy">
+    
+  </div>
+</section>
+
+
+  <script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js') }}"> </script>
+  <script src="{{ url_for('static',filename='js/all.min.js') }}"></script> 
+
+</body>
+</html>
